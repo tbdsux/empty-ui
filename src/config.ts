@@ -10,4 +10,5 @@ type BaseConfigProps = {
   buttons: ButtonConfigProps;
 };
 
+export { ButtonConfigProps };
 export default BaseConfigProps;
