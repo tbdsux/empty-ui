@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Button } from 'blank-ui';
+
+import { BtnPrimary } from 'empty-ui/lib/components/buttons';
 
 import './App.css';
 
@@ -16,7 +17,7 @@ function App() {
           Learn React
         </a>
 
-        <Button />
+        <BtnPrimary>hello</BtnPrimary>
       </header>
     </div>
   );

@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UIProvider from 'empty-ui/lib/provider/context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UIProvider
+      config={{
+        buttons: {
+          primary: 'primary-button'
+        }
+      }}
+    >
+      <App />
+    </UIProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
