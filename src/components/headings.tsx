@@ -15,7 +15,7 @@ interface HeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
  * @param {HeadingProps} props
  * @returns {JSX.Element}
  */
-const Heading = (props: HeadingProps) => {
+const Heading = (props: HeadingProps): JSX.Element => {
   const { className, as } = props;
   const headings = useHeading();
 

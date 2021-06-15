@@ -10,7 +10,7 @@ import { joinClassnames } from '../utils/classnames';
  * @param {React.ButtonHTMLAttributes<HTMLButtonElement>} props
  * @returns {JSX.Element}
  */
-const BtnPrimary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
+const BtnPrimary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
   const { primary } = useButton();
 
   return (
@@ -26,7 +26,7 @@ const BtnPrimary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
  * @param {React.ButtonHTMLAttributes<HTMLButtonElement>} props
  * @returns {JSX.Element}
  */
-const BtnSecondary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
+const BtnSecondary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
   const { secondary } = useButton();
 
   return (
@@ -42,7 +42,7 @@ const BtnSecondary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
  * @param {React.ButtonHTMLAttributes<HTMLButtonElement>} props
  * @returns {JSX.Element}
  */
-const BtnInfo = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
+const BtnInfo = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
   const { info } = useButton();
 
   return (
@@ -58,7 +58,7 @@ const BtnInfo = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
  * @param {React.ButtonHTMLAttributes<HTMLButtonElement>} props
  * @returns {JSX.Element}
  */
-const BtnWarning = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
+const BtnWarning = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
   const { warning } = useButton();
 
   return (
@@ -74,7 +74,7 @@ const BtnWarning = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
  * @param {React.ButtonHTMLAttributes<HTMLButtonElement>} props
  * @returns {JSX.Element}
  */
-const BtnDanger = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
+const BtnDanger = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
   const { danger } = useButton();
 
   return (

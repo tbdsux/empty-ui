@@ -12,7 +12,7 @@ type ContainerProps = React.HTMLAttributes<HTMLDivElement>;
  * @param {React.HTMLAttributes<HTMLDivElement>} props
  * @returns {JSX.Element}
  */
-const Container = (props: ContainerProps) => {
+const Container = (props: ContainerProps): JSX.Element => {
   const container = useContainer();
 
   return (
