@@ -6,3 +6,6 @@ export { Container };
 
 import { Heading } from './headings';
 export { Heading };
+
+import { LinkPrimary, LinkSecondary, LinkInfo, LinkWarning, LinkDanger } from './links';
+export { LinkPrimary, LinkSecondary, LinkInfo, LinkWarning, LinkDanger };

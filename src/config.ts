@@ -14,11 +14,13 @@ type HeadingProps = {
   h5?: string;
   h6?: string;
 };
+type LinkConfigProps = ButtonConfigProps;
 
 type BaseConfigProps = {
   buttons: ButtonConfigProps;
   container?: ContainerConfigProps;
   headings: HeadingProps;
+  links: LinkConfigProps;
 };
 
 export { ButtonConfigProps };

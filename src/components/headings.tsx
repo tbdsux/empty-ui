@@ -1,11 +1,11 @@
 /* headings component */
 
-import React, { HTMLAttributes } from 'react';
+import * as React from 'react';
 import { useHeading } from '../hooks';
 import { joinClassnames } from '../utils/classnames';
 
 type HeadingASProps = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
-interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {
+interface HeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
   as: HeadingASProps;
 }
 

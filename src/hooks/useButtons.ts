@@ -5,3 +5,9 @@ export const useButton = () => {
 
   return buttons;
 };
+
+export const useLinks = () => {
+  const { links } = getContext();
+
+  return links;
+};

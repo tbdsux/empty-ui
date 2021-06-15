@@ -11,5 +11,39 @@ import { useButton, useUI } from './hooks';
 export { useButton, useUI };
 
 // components
-import { BtnPrimary, BtnSecondary, BtnInfo, BtnDanger, BtnWarning, Container, Heading } from './components';
-export { BtnPrimary, BtnSecondary, BtnInfo, BtnDanger, BtnWarning, Container, Heading };
+import {
+  // buttons
+  BtnPrimary,
+  BtnSecondary,
+  BtnInfo,
+  BtnDanger,
+  BtnWarning,
+
+  // container
+  Container,
+
+  // heading
+  Heading,
+
+  // links
+  LinkPrimary,
+  LinkSecondary,
+  LinkInfo,
+  LinkWarning,
+  LinkDanger
+} from './components';
+
+export {
+  BtnPrimary,
+  BtnSecondary,
+  BtnInfo,
+  BtnDanger,
+  BtnWarning,
+  Container,
+  Heading,
+  LinkPrimary,
+  LinkSecondary,
+  LinkInfo,
+  LinkWarning,
+  LinkDanger
+};

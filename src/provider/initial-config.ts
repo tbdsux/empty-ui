@@ -16,6 +16,13 @@ const InitialConfig: BaseConfigProps = {
     h4: '',
     h5: '',
     h6: ''
+  },
+  links: {
+    primary: '',
+    secondary: '',
+    info: '',
+    danger: '',
+    warning: ''
   }
 };
 

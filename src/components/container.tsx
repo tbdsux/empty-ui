@@ -1,10 +1,10 @@
 /* container component */
 
-import React, { HTMLAttributes } from 'react';
+import * as React from 'react';
 import { useContainer } from '../hooks';
 import { joinClassnames } from '../utils/classnames';
 
-type ContainerProps = HTMLAttributes<HTMLDivElement>;
+type ContainerProps = React.HTMLAttributes<HTMLDivElement>;
 
 /**
  * Container
