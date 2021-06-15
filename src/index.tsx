@@ -10,6 +10,6 @@ export { BaseConfigProps, ButtonConfigProps };
 import { useButton, useUI } from './hooks';
 export { useButton, useUI };
 
-// buttons
-import { BtnPrimary, BtnSecondary, BtnInfo, BtnDanger, BtnWarning } from './components';
-export { BtnPrimary, BtnSecondary, BtnInfo, BtnDanger, BtnWarning };
+// components
+import { BtnPrimary, BtnSecondary, BtnInfo, BtnDanger, BtnWarning, Container, Heading } from './components';
+export { BtnPrimary, BtnSecondary, BtnInfo, BtnDanger, BtnWarning, Container, Heading };

@@ -1,7 +1,7 @@
 /* button components */
 
 import * as React from 'react';
-import { useButton } from '../hooks/useButton';
+import { useButton } from '../hooks';
 import { joinClassnames } from '../utils/classnames';
 
 /**
@@ -20,7 +20,6 @@ const BtnPrimary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
   );
 };
 
-
 /**
  * Secondary Button
  *
@@ -36,7 +35,6 @@ const BtnSecondary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
     </button>
   );
 };
-
 
 /**
  * Info Button
