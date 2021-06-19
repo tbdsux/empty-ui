@@ -1,5 +1,6 @@
 {
   "name": "empty-ui",
+  "description": "a very simple, configuration-based ui",
   "version": "0.0.1",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
