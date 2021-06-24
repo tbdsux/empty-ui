@@ -30,7 +30,10 @@ import {
   LinkSecondary,
   LinkInfo,
   LinkWarning,
-  LinkDanger
+  LinkDanger,
+
+  // empty component
+  EmptyComponent
 } from './components';
 
 export {
@@ -45,5 +48,6 @@ export {
   LinkSecondary,
   LinkInfo,
   LinkWarning,
-  LinkDanger
+  LinkDanger,
+  EmptyComponent
 };

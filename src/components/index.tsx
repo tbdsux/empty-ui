@@ -9,3 +9,6 @@ export { Heading };
 
 import { LinkPrimary, LinkSecondary, LinkInfo, LinkWarning, LinkDanger } from './links';
 export { LinkPrimary, LinkSecondary, LinkInfo, LinkWarning, LinkDanger };
+
+import { EmptyComponent } from './empty';
+export { EmptyComponent };
