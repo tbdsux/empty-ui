@@ -1,5 +1,5 @@
 node_modules
 *.log
 lib
-example/yarn.lock
+example/**/*/yarn.lock
 *.tgz
