@@ -1,13 +1,13 @@
-import { getContext } from './useUI';
+import useUI from './useUI';
 
 export const useButton = () => {
-  const { buttons } = getContext();
+  const { buttons } = useUI();
 
   return buttons;
 };
 
 export const useLinks = () => {
-  const { links } = getContext();
+  const { links } = useUI();
 
   return links;
 };

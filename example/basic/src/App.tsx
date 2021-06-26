@@ -1,9 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-
-import { BtnPrimary } from 'empty-ui/lib/components/buttons';
-
+import { BtnPrimary } from 'empty-ui/lib/esm/components';
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
   return (

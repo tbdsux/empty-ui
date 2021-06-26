@@ -1,7 +1,7 @@
-import { getContext } from './useUI';
+import useUI from './useUI';
 
 export const useHeading = () => {
-  const { headings } = getContext();
+  const { headings } = useUI();
 
   return headings;
 };

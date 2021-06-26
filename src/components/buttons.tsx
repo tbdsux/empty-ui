@@ -11,10 +11,10 @@ import { joinClassnames } from '../utils/classnames';
  * @returns {JSX.Element}
  */
 const BtnPrimary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
-  const { primary } = useButton();
+  const button = useButton();
 
   return (
-    <button {...props} className={joinClassnames(primary, props.className)}>
+    <button {...props} type="button" className={joinClassnames(button?.primary, props.className)}>
       {props.children}
     </button>
   );
@@ -27,10 +27,10 @@ const BtnPrimary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.E
  * @returns {JSX.Element}
  */
 const BtnSecondary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
-  const { secondary } = useButton();
+  const button = useButton();
 
   return (
-    <button {...props} className={joinClassnames(secondary, props.className)}>
+    <button {...props} type="button" className={joinClassnames(button?.secondary, props.className)}>
       {props.children}
     </button>
   );
@@ -43,10 +43,10 @@ const BtnSecondary = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX
  * @returns {JSX.Element}
  */
 const BtnInfo = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
-  const { info } = useButton();
+  const button = useButton();
 
   return (
-    <button {...props} className={joinClassnames(info, props.className)}>
+    <button {...props} type="button" className={joinClassnames(button?.info, props.className)}>
       {props.children}
     </button>
   );
@@ -59,10 +59,10 @@ const BtnInfo = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Elem
  * @returns {JSX.Element}
  */
 const BtnWarning = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
-  const { warning } = useButton();
+  const button = useButton();
 
   return (
-    <button {...props} className={joinClassnames(warning, props.className)}>
+    <button {...props} type="button" className={joinClassnames(button?.warning, props.className)}>
       {props.children}
     </button>
   );
@@ -75,10 +75,10 @@ const BtnWarning = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.E
  * @returns {JSX.Element}
  */
 const BtnDanger = (props: React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
-  const { danger } = useButton();
+  const button = useButton();
 
   return (
-    <button {...props} className={joinClassnames(danger, props.className)}>
+    <button {...props} type="button" className={joinClassnames(button?.danger, props.className)}>
       {props.children}
     </button>
   );

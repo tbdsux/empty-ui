@@ -1,23 +1,23 @@
+import UIProvider from 'empty-ui/lib/esm';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
-import UIProvider from 'empty-ui/lib/provider/context';
 
 ReactDOM.render(
   <React.StrictMode>
     <UIProvider
       config={{
         buttons: {
-          primary: 'primary-button'
-        }
+          primary: 'primary-button',
+        },
       }}
     >
       <App />
     </UIProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function

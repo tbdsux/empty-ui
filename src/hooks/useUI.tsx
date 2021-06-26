@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { UIContext } from '../provider/context';
 
-const getContext = () => {
+const useUI = () => {
   const context = React.useContext(UIContext);
 
   if (context === undefined) {
@@ -11,7 +11,4 @@ const getContext = () => {
   return context;
 };
 
-const useUI = () => getContext();
-
-export { getContext };
 export default useUI;

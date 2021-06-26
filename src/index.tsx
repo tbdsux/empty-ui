@@ -1,53 +1,11 @@
-// provider context
-import { UIContext, UIProvider } from './provider';
-export { UIContext, UIProvider };
-
 // config
 import BaseConfigProps, { ButtonConfigProps } from './config';
-export { BaseConfigProps, ButtonConfigProps };
-
 // hooks
 import { useButton, useUI } from './hooks';
+import { UIContext, UIProvider } from './provider';
+
+export * from './components';
+export { UIContext };
+export { BaseConfigProps, ButtonConfigProps };
 export { useButton, useUI };
-
-// components
-import {
-  // buttons
-  BtnPrimary,
-  BtnSecondary,
-  BtnInfo,
-  BtnDanger,
-  BtnWarning,
-
-  // container
-  Container,
-
-  // heading
-  Heading,
-
-  // links
-  LinkPrimary,
-  LinkSecondary,
-  LinkInfo,
-  LinkWarning,
-  LinkDanger,
-
-  // empty component
-  EmptyComponent
-} from './components';
-
-export {
-  BtnPrimary,
-  BtnSecondary,
-  BtnInfo,
-  BtnDanger,
-  BtnWarning,
-  Container,
-  Heading,
-  LinkPrimary,
-  LinkSecondary,
-  LinkInfo,
-  LinkWarning,
-  LinkDanger,
-  EmptyComponent
-};
+export default UIProvider;

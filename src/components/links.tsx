@@ -7,14 +7,14 @@ import { joinClassnames } from '../utils/classnames';
 /**
  * Primary Button
  *
- * @param {React.ButtonHTMLAttributes<HTMLButtonElement>} props
+ * @link?.param {React.ButtonHTMLAttributes<HTMLButtonElement>} props
  * @returns {JSX.Element}
  */
 const LinkPrimary = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.Element => {
-  const { primary } = useLinks();
+  const link = useLinks();
 
   return (
-    <a {...props} className={joinClassnames(primary, props.className)}>
+    <a {...props} className={joinClassnames(link?.primary, props.className)}>
       {props.children}
     </a>
   );
@@ -27,10 +27,10 @@ const LinkPrimary = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.
  * @returns {JSX.Element}
  */
 const LinkSecondary = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.Element => {
-  const { secondary } = useLinks();
+  const link = useLinks();
 
   return (
-    <a {...props} className={joinClassnames(secondary, props.className)}>
+    <a {...props} className={joinClassnames(link?.secondary, props.className)}>
       {props.children}
     </a>
   );
@@ -43,10 +43,10 @@ const LinkSecondary = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JS
  * @returns {JSX.Element}
  */
 const LinkInfo = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.Element => {
-  const { info } = useLinks();
+  const link = useLinks();
 
   return (
-    <a {...props} className={joinClassnames(info, props.className)}>
+    <a {...props} className={joinClassnames(link?.info, props.className)}>
       {props.children}
     </a>
   );
@@ -59,10 +59,10 @@ const LinkInfo = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.Ele
  * @returns {JSX.Element}
  */
 const LinkWarning = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.Element => {
-  const { warning } = useLinks();
+  const link = useLinks();
 
   return (
-    <a {...props} className={joinClassnames(warning, props.className)}>
+    <a {...props} className={joinClassnames(link?.warning, props.className)}>
       {props.children}
     </a>
   );
@@ -75,10 +75,10 @@ const LinkWarning = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.
  * @returns {JSX.Element}
  */
 const LinkDanger = (props: React.AnchorHTMLAttributes<HTMLAnchorElement>): JSX.Element => {
-  const { danger } = useLinks();
+  const link = useLinks();
 
   return (
-    <a {...props} className={joinClassnames(danger, props.className)}>
+    <a {...props} className={joinClassnames(link?.danger, props.className)}>
       {props.children}
     </a>
   );

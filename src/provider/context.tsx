@@ -9,17 +9,19 @@ type UIProviderProps = {
 
 const UIContext = React.createContext<BaseConfigProps>(InitialConfig);
 
-const UIProvider = (props: UIProviderProps) => {
-  return (
-    <UIContext.Provider
-      value={{
-        ...InitialConfig,
-        ...props.config
-      }}
-    >
-      {props.children}
-    </UIContext.Provider>
-  );
+const UIProvider = (props: UIProviderProps) => (
+  <UIContext.Provider
+    value={{
+      ...InitialConfig,
+      ...props.config,
+    }}
+  >
+    {props.children}
+  </UIContext.Provider>
+);
+
+UIProvider.defaultProps = {
+  config: {},
 };
 
 export { UIContext };

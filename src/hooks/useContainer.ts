@@ -1,7 +1,7 @@
-import { getContext } from './useUI';
+import useUI from './useUI';
 
 export const useContainer = () => {
-  const { container } = getContext();
+  const { container } = useUI();
 
   return container;
 };

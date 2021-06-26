@@ -17,10 +17,10 @@ type HeadingProps = {
 type LinkConfigProps = ButtonConfigProps;
 
 type BaseConfigProps = {
-  buttons: ButtonConfigProps;
+  buttons?: ButtonConfigProps;
   container?: ContainerConfigProps;
-  headings: HeadingProps;
-  links: LinkConfigProps;
+  headings?: HeadingProps;
+  links?: LinkConfigProps;
 };
 
 export { ButtonConfigProps };

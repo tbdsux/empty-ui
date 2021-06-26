@@ -1,22 +1,21 @@
 {
-    "compilerOptions": {
-        "outDir": "lib",
-        "lib": ["dom", "esnext"],
-        "jsx": "react",
-        "declaration": true,
-        "target": "es5",
-        "module": "esnext",
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "strictNullChecks": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "allowSyntheticDefaultImports": true,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        
-    },
-    "include": ["src"],
-    "exclude": ["example", "node_modules", "lib"]
+  "compilerOptions": {
+    "outDir": "lib/esm",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "declaration": true,
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src"],
+  "exclude": ["example", "node_modules", "lib"]
 }
