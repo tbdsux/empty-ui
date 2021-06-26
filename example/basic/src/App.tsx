@@ -1,4 +1,4 @@
-import { BtnPrimary } from 'empty-ui/lib/esm/components';
+import { BtnPrimary } from 'empty-ui';
 import './App.css';
 import logo from './logo.svg';
 

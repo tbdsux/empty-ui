@@ -3,3 +3,4 @@ example
 src
 node_modules
 tests
+*.tgz
