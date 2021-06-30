@@ -12,6 +12,14 @@ const AllTheProviders: React.FC = ({ children }) => (
         warning: 'warning-button',
         danger: 'danger-button',
       },
+      container: 'container-wrapper w-full',
+      links: {
+        primary: 'primary-link',
+        secondary: 'secondary-link',
+        info: 'info-link',
+        warning: 'warning-link',
+        danger: 'danger-link',
+      },
     }}
   >
     {children}
