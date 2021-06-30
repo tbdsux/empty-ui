@@ -1,8 +1,14 @@
 import * as React from 'react';
 import { render } from '../helpers/test-utils';
-import { Heading } from '../src/index';
+import { Heading, HeadingASProps } from '../src/index';
 
-const testHeadingCases = {
+type testHeadingCasesProps = {
+  [key: string]: {
+    class: string;
+    component: HeadingASProps;
+  };
+};
+const testHeadingCases: testHeadingCasesProps = {
   h1: {
     class: 'heading-1',
     component: 'h1',

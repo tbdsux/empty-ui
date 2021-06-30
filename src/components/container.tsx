@@ -22,4 +22,4 @@ const Container = (props: ContainerProps): JSX.Element => {
   );
 };
 
-export { Container };
+export { Container, ContainerProps };

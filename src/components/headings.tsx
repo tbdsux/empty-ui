@@ -65,4 +65,4 @@ const Heading = (props: HeadingProps): JSX.Element => {
   return <EmptyComponent />;
 };
 
-export { Heading };
+export { Heading, HeadingProps, HeadingASProps };
