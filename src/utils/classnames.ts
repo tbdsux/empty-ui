@@ -3,6 +3,5 @@ export const joinClassnames = (baseClasses: string | undefined, classnames: stri
   const base = baseClasses ? baseClasses.trim() : '';
   const classes = classnames ? classnames.trim() : '';
 
-  // this prevents unnecesary spaces in between, even though it wouldn't matter at all
-  return `${base} + ' ' + ${classes}`.trim();
+  return `${base} ${classes}`.trim();
 };

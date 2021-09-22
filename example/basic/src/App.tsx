@@ -14,7 +14,7 @@ function App() {
           Learn React
         </a>
 
-        <BtnPrimary>hello</BtnPrimary>
+        <BtnPrimary className="hello">hello</BtnPrimary>
       </header>
     </div>
   );
